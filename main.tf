@@ -16,3 +16,15 @@ resource "gitlab_project" "centralizado" {
   description    = "Centralizado"
   default_branch = "main"
 }
+
+resource "gitlab_project" "featurebranch" {
+  name           = "featurebranch"
+  description    = "Feature Branch"
+  default_branch = "main"
+}
+
+resource "gitlab_project" "gitflow" {
+  name           = "gitflow"
+  description    = "Gitflow"
+  default_branch = "main"
+}
